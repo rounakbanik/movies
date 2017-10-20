@@ -9,7 +9,7 @@ from pprint import pprint
 
 base_url = "https://api.themoviedb.org/3/movie/"
 
-json_file = open('data/movies_metadata.json', 'a')
+json_file = open('../data/movies_metadata.json', 'a')
 
 data = []
 
