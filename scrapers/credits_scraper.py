@@ -15,7 +15,7 @@ data = []
 
 with open('data/links.csv', 'r') as f:
 	for count,line in enumerate(f):
-		if count > 44904:
+		if count > 0:
 			line = line.split(',')
 			tmdbId = line[2]
 			if len(tmdbId) == 0:
